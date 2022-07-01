@@ -1,0 +1,95 @@
+.navbar-light{
+    .navbar-nav{
+          .nav-link{
+              color: black;
+              font-weight: bold;
+      }
+  }
+}
+
+
+// Hero
+.hero{
+    margin-top: 120px;
+    justify-content: center;
+
+    .gambar{
+        img{
+            max-height: 400px;
+        }
+    }
+    video{
+        max-height: 280px;
+        width: 100%;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Assistant', sans-serif;
+    }
+
+    p{
+        font-weight: 300;
+        font-family: 'Assistant', sans-serif;
+    }
+}
+
+.section-pupolar{
+    min-height: 650px;
+    background-color: #051334;
+    margin-top: 50px;
+    margin-bottom: -230px;
+
+    .section-pupolar-heading{
+        margin-top: 10px;
+
+        h2{
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        p{
+            color: #fff;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+    }
+}
+
+.section-popular-content{
+    .section-popular-travel{
+        .card-travel{
+            margin-top: -190px;
+            min-height: 380px;
+            background-color: #071c4d;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .travel-country{
+            font-size: 18px;
+            color: #fff;
+        }
+        .travel-location{
+            font-size: 26px;
+            color: #fff;
+        }
+        .btn-view-details{
+            background-color: chocolate;
+            color: #fff;
+
+            &:hover{
+                background-color: coral;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+
